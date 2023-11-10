@@ -1,0 +1,46 @@
+[
+
+    {
+      "dia": "Lunes",
+      "hora": "9:00 AM",
+      "materia": "Programacion Arduino",
+      "aula": "Aula 101",
+      "temario": "Definir puertos de entrada y salida"
+    },
+    {
+      "dia": "Martes",
+      "hora": "14:00 PM",
+      "materia": "Programacion Arduino",
+      "aula": "Aula 102",
+      "temario": "Definir puertos de entrada y salida"
+    },
+    {
+      "dia": "Miércoles",
+      "hora": "18:00 PM",
+      "materia": "Mecatronica I",
+      "aula": "Aula Magna",
+      "temario": "Presentacion del programa Robotica para adolescentes"
+    },
+    {
+        "dia": "Jueves",
+        "hora": "14:00 PM",
+        "materia": "Programacion C",
+        "aula": "Aula 101",
+        "temario": "While y do While"
+      },
+      {
+        "dia": "Viernes",
+        "hora": "18:00 PM",
+        "materia": "Programacion C",
+        "aula": "Aula 102",
+        "temario": "While y do While"
+      },
+      {
+        "dia": "Sabado",
+        "hora": "10:00 AM",
+        "materia": "Mecatronica I",
+        "aula": "Aula 103",
+        "temario": "Armado de proyecto"
+      }
+  ]
+  

@@ -1,0 +1,304 @@
+/* Estilos generales */
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.item{
+  margin: 20px;
+}
+
+
+/* footer */
+footer {
+  width: 100%;
+  height:auto;
+  position: fixed;
+  bottom: 0;
+  background-color: #333333;
+  color: #fffffff1;
+  padding: 1px;
+  text-align: center;
+  margin-left: -20px;
+}
+.footer-columna {
+  flex: 1; 
+  margin: 1px;
+}
+/* footer */
+
+/*Botones*/
+#buttonExtra{
+  color: rgb(242, 238, 238);
+  border-radius: 8px;
+  font-size: 20px;
+  width: 300px;
+  height: 40px;
+  border-style: hidden;
+  background-color: #0b65b4;
+}
+
+#buttonExtra:hover{
+ background-color: #0bb487;
+ transition: background-color 0.3s, color 0.3s; 
+}
+
+
+
+/*Botones*/
+
+/**************** Estilos para el formulario ***************/
+
+/* Estilos para el formulario */
+.formulario-container {
+  max-width: 600px; /* Establece el ancho máximo del contenedor del formulario */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-control {
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/**************** Hasta aca Estilos para el formulario ***************/
+
+
+/*       NAVBAR    */
+.navbar-fixed-top {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #007BFF;
+}
+
+/* navbar*/
+.nav-item.active a,
+.nav-item a:hover {
+  height: auto;
+  background-color: #007BFF; /* Cambia el color de fondo al pasar el mouse */
+  color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+
+
+.login-container {
+  width: 300px; 
+  margin: 0 auto; 
+  position: absolute; 
+  margin-top: 300px;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#map {
+  height: 400px; 
+  width: 100%;   
+}
+
+/*video para la presentacion de la pagina*/
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+/*video para la presentacion de la pagina*/
+
+.mapa{
+  width: 700px;
+  margin: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 2px;
+  margin-top:50px;
+  
+}
+
+.container {
+  background-image: url('./images/4884273.jpg');
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.titulo {
+  background-color: #ccc;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px; 
+  text-align: center; 
+}
+
+.titulo-principal{
+  text-align: center;
+  display: flex;
+  color:white;
+  font-size: 60px;
+  justify-content: center; 
+  align-items: center;
+  margin: 50px; 
+}
+
+/* apariencia en cursos*/
+.cursos {
+  max-width: auto; 
+  margin: 0 auto;  
+  padding: 20px;   
+  box-sizing: border-box; 
+  color: #002f62;
+  margin-top:50px;
+}
+
+/* apariencia en para index */
+.cursos-por-edades {  
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px;
+  border:5px #482190 solid;
+  background-color: rgb(14, 108, 191);
+  color: white;
+}
+
+
+@media (max-width: 760px) {
+  .cursos {
+    width: 100%; 
+    padding: 10px; 
+  }
+}
+
+.container-form{
+  background-image: url('./images/4884273.jpg');
+  width: 760px;
+  color: white;
+  max-width: auto; 
+  margin: 0 auto;  
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 20px;   
+  box-sizing: border-box; 
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+
+
+
+/*     Alumnos*/
+.clases{
+  width: 100%; 
+  margin: 0 auto;
+  
+}
+
+.tablas{
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;   
+  text-align: center;
+  align-items: center;
+  border: 1px solid #0e0404;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.datos{
+  border: 1px solid #0e0404;
+}
+
+
+.container-form-charlas{
+  width: 760px;
+  color: rgb(65, 61, 61);
+  max-width: auto; 
+  margin: 0 auto;  
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 20px;   
+  box-sizing: border-box; 
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.volver{
+  width: 300px; 
+  margin: 0 auto; 
+  margin-bottom: 100px;
+}
+
+.usurio-registrado{
+  background-color: #0bb487;
+  color:white;
+  padding: 10px;
+  width: 100%;
+}
+
+/* clases para la pagina de docentes*/ 
+
+.clase-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clase-recuadro {
+  border: 1px solid #ccc;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  width: calc(33.33% - 20px); /* Ajusta según tus necesidades */
+  float: left; 
+}
+
+
+
+
+@media (max-width: 768px) {
+    .clase-recuadro {
+        width: calc(100% - 20px);
+    }
+}

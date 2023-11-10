@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/favicon.jpeg" type="image/x-icon">
+    <title>Iot GDR</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
+       <div class="container-fluid">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="index.html">GDR Robotica</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./talleres.html">Talleres</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="./ubicacion.html">Donde estamos?</a>
+               </li>
+             <li class="nav-item">
+               <a class="nav-link" href="./contacto.html">Contacto</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" > <strong class="usurio-registrado" id="username"></strong></a>
+            </li>
+             <span id="nombreUsuario"></span>
+           </ul>
+         </div>
+       </div>
+     </nav>
+  
+
+        <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+          <div class="welcome-message">
+            <h2>Bienvenido/a <span id="username"></span></h2>
+          </div>
+        </head>
+        <div class="clases">
+          <h3>Clases Semanales</h3>
+      
+          <table class="tablas">
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Hora</th>
+                <th>Docente</th>
+                <th>Materia</th>
+                <th>Temario</th>
+                <th>Observaciones</th>
+                <th>Acciones</th>
+              </tr> 
+            </thead>
+            <tbody>
+              <tr class="datos" >
+                <td>2023-11-09</td>
+                <td>9:00 AM</td>
+                <td>Rodrigo Cianciulli</td>
+                <td>Programacion Arduino</td>
+                <td>Definir puertos de entrada y salida</td>
+                <td>Traer la placa de desarrolo</td>
+                <td>
+                  <button class="btn btn-danger">Cancelar</button>
+                </td>
+              </tr>
+              <tr class="datos">
+                <td>2023-11-09</td>
+                <td>11:00 AM</td>
+                <td>Juan Perez</td>
+                <td>Programacion codigo</td>
+                <td>Ordenamiento por burbujeo</td>
+                <td>Ninguna</td>
+                <td>
+                  <button class="btn btn-danger">Cancelar</button>
+                </td>
+              </tr>
+              <tr class="datos">
+                <td>2023-11-11</td>
+                <td>10:00 AM</td>
+                <td>Pedro Gomez</td>
+                <td>Mecatronica</td>
+                <td>Explicacion de Servo Motores</td>
+                <td>Ninguna</td>
+                <td>
+                  <button class="btn btn-danger">Cancelar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+        <div class="container-form-charlas">
+          <h3>Anotarse a Charlas/Seminarios</h3>
+          <form id="seminar-form">
+            <label for="charla">Charla:</label>
+            <select id="charla" name="charla" required>
+              <option value="charla1">Python UNA HUR</option>
+              <option value="charla2">Base de datos Mysql</option>
+              <option value="charla3">IA UNA HUR</option>
+              <option value="charla4">Sistemas Embebidos</option>
+            </select>
+            <br>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+        
+            <label for="email">Email del alumno:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="observaciones">Dejanos un comentario:</label>
+            <br>
+            <textarea id="observaciones" name="observaciones" rows="4" required></textarea>
+          
+          <br>
+          <br>
+            <button type="button" onclick="reservaCurso()">Reservar Cupo</button>
+            <p id="comentario"></p>
+          </form>
+        </div>
+        
+        <div class="volver">
+          <a href="index.html">Volver a la Web principal</a>
+        </div>
+        
+ 
+          <footer>
+            <div class="footer-columna">
+                <p>Diseñado por GDR Gonzalo Daniel Robles  &copy; 2023</p>
+                <a href="https://github.com/Gonzalo-Robles" target="_blank"><img src="./images/GitHub.png" alt="github" height="auto" width="25"></a>
+                <a href="https://www.linkedin.com/in/gonzalo-robles-201984/" target="_blank"><img src="./images/linkedin.png" alt="linkedin" height="auto" width="25"></a>
+            </div>
+        </footer> 
+        <script src="script.js"></script>
+         </body>
+         
+</html>
